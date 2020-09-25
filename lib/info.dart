@@ -1,7 +1,8 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'more info.dart';
 import 'ppe.dart';
+import 'cov.dart';
+import 'more info.dart';
 
 class Info extends StatelessWidget {
   @override
@@ -21,6 +22,29 @@ class Info extends StatelessWidget {
               children: [
                 RaisedButton(
                   shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(12.0)),
+                  color: Colors.orange[400],
+                  textColor: Colors.white,
+                  disabledColor: Colors.grey,
+                  disabledTextColor: Colors.black,
+                  padding: EdgeInsets.all(8.0),
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => COV()));
+                  },
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: <Widget>[
+                      new Image.asset(
+                        'images/3.png',
+                        height: 140.0,
+                        width: 140.0,
+                      ),
+                    ],
+                  ),
+                ),
+                RaisedButton(
+                  shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(12.0)),
                   color: Colors.purple[300],
                   textColor: Colors.white,
                   disabledColor: Colors.grey,
@@ -38,6 +62,11 @@ class Info extends StatelessWidget {
                     ],
                   ),
                 ),
+              ],
+            ),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+              children: [
                 RaisedButton(
                   shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(12.0)),
                   color: Colors.red[300],
@@ -61,63 +90,6 @@ class Info extends StatelessWidget {
                     ],
                   ),
                 ),
-              ],
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
-                RaisedButton(
-                  shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(12.0)),
-                  color: Colors.orange[400],
-                  textColor: Colors.white,
-                  disabledColor: Colors.grey,
-                  disabledTextColor: Colors.black,
-                  padding: EdgeInsets.all(8.0),
-                  onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => MoreInfo()));
-                  },
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-                      new Image.asset(
-                        'images/3.png',
-                        height: 140.0,
-                        width: 140.0,
-                      ),
-                    ],
-                  ),
-                ),
-                RaisedButton(
-                  shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(12.0)),
-                  color: Colors.green[400],
-                  textColor: Colors.white,
-                  disabledColor: Colors.grey,
-                  disabledTextColor: Colors.black,
-                  padding: EdgeInsets.all(8.0),
-                  onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => MoreInfo()));
-                  },
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: <Widget>[
-
-                      new Image.asset(
-                        'images/4.png',
-                        height: 140.0,
-                        width: 140.0,
-                      ),
-                    ],
-                  ),
-                ),
-              ],
-            ),
-            Row(
-              mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-              children: [
                 RaisedButton(
                   shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(12.0)),
                   color: Colors.blue[400],
