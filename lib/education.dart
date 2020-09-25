@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'Past Pandemic.dart';
 import 'Outbreak Stages.dart';

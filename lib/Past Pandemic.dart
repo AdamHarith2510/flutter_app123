@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'PPandemicContent.dart';
 
@@ -42,6 +41,7 @@ class Pastpandemic extends StatelessWidget {
             child: RaisedButton(
               child: Text(
                 "JUSTINIAN'S PLAGUE",
+                textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 40,
                   fontFamily: 'Montserrat',
@@ -55,7 +55,8 @@ class Pastpandemic extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Justinian()));
+                    MaterialPageRoute(builder: (context) => Justinian())
+                );
               },
             ),
           ),
@@ -103,10 +104,8 @@ class Pastpandemic extends StatelessWidget {
               },
             ),
           ),
-
         ],
       ),
-
     );
   }
 }
