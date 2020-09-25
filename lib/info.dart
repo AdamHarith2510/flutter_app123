@@ -35,7 +35,7 @@ class Info extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       new Image.asset(
-                        'images/3.png',
+                        'assets/images/3.png',
                         height: 140.0,
                         width: 140.0,
                       ),
@@ -54,7 +54,7 @@ class Info extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       new Image.asset(
-                        'images/1.png',
+                        'assets/images/1.png',
                         height: 140.0,
                         width: 140.0,
                       ),
@@ -82,7 +82,7 @@ class Info extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       new Image.asset(
-                        'images/2.png',
+                        'assets/images/2.png',
                         height: 140.0,
                         width: 140.0,
                       ),
@@ -105,7 +105,7 @@ class Info extends StatelessWidget {
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       new Image.asset(
-                        'images/5.png',
+                        'assets/images/5.png',
                         height: 140.0,
                         width: 140.0,
                       ),

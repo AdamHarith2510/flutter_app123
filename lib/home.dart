@@ -67,7 +67,7 @@ class _HomeState extends State<Home> {
                 ),
                 borderRadius: BorderRadius.circular(20.0),
                 image: DecorationImage(
-                  image: AssetImage('images/MM2.jpg'),
+                  image: AssetImage('assets/images/MM2.jpg'),
                   fit: BoxFit.fitHeight,
                 ),
               ),
