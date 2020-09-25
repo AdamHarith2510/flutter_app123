@@ -50,179 +50,173 @@ class _HomeState extends State<Home> {
     return Container(
       decoration: BoxDecoration(
         gradient: LinearGradient(
-            begin: Alignment.topCenter,
-            end: Alignment.bottomCenter,
-            colors: [Colors.redAccent, Colors.lightBlueAccent]
+            begin: Alignment.topRight,
+            end: Alignment.bottomLeft,
+            colors: [Colors.blue, Colors.red]
         ),
       ),
       child:  Column(
         children: [
           Flexible(
-            flex: 2,
+            flex: 3,
             child: Container(
               decoration: BoxDecoration(
-                borderRadius: BorderRadius.circular(25.0),
+                border: Border.all(
+                  width: 10,
+                  color: Colors.blue[900],
+                ),
+                borderRadius: BorderRadius.circular(20.0),
                 image: DecorationImage(
                   image: AssetImage('images/MM2.jpg'),
                   fit: BoxFit.fitHeight,
                 ),
               ),
-              margin: EdgeInsets.fromLTRB(15.0, 30.0, 15.0,15.0),
+              margin: EdgeInsets.fromLTRB(15.0, 40.0, 15.0, 10.0),
               child: new ListView.builder(
                 itemCount: data2 == null ? 0 : data2.length,
                 itemBuilder: (BuildContext context, int index2) {
-                  return new Column(
-                    children: [
-                      Container(
-                        padding: EdgeInsets.fromLTRB(0.0, 0.0, 0.0, 20.0),
-                        child: Text(
-                          'Malaysia Covid-19 Cases',
-                          style: TextStyle(
-                            fontFamily: 'Montserrat',
-                            fontWeight: FontWeight.bold,
-                            fontSize: 28.0,
+                  return new Container(
+                    padding: EdgeInsets.all(15.0),
+                    child: Column(
+                      children: [
+                        Container(
+                          child: Text(
+                            'Malaysia Covid-19 Cases',
+                            style: TextStyle(
+                              fontFamily: 'Montserrat',
+                              fontWeight: FontWeight.bold,
+                              fontSize: 26.0,
+                            ),
                           ),
                         ),
-                      ),
-                      Container(
-                        padding: EdgeInsets.all(20.0),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                          children: [
-                            Column(
-                              children: [
-                                Text(
-                                  'New Cases',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
-                                    fontSize: 18.0,
-                                    fontWeight: FontWeight.bold,
+                        Container(
+                          margin: EdgeInsets.fromLTRB(10.0, 25.0, 10.0, 10.0),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            children: [
+                              Column(
+                                children: [
+                                  Text(
+                                    'New Cases',
+                                    style: TextStyle(
+                                      fontFamily: 'Montserrat',
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
-                                ),
-                                Text(
-                                  data2[index2]['New Cases'],
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
-                                    fontSize: 18.0,
+                                  Text(
+                                    data2[index2]['New Cases'],
+                                    style: TextStyle(
+                                      fontFamily: 'Montserrat',
+                                    ),
                                   ),
-                                ),
-                              ],
-                            ),
-                            Column(
-                              children: [
-                                Text(
-                                  'New Deaths',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
-                                    fontSize: 18.0,
-                                    fontWeight: FontWeight.bold,
+                                ],
+                              ),
+                              Column(
+                                children: [
+                                  Text(
+                                    'New Deaths',
+                                    style: TextStyle(
+                                      fontFamily: 'Montserrat',
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
-                                ),
-                                Text(
-                                  data2[index2]['New Deaths'],
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
-                                    fontSize: 18.0,
+                                  Text(
+                                    data2[index2]['New Deaths'],
+                                    style: TextStyle(
+                                      fontFamily: 'Montserrat',
+                                    ),
                                   ),
-                                ),
-                              ],
-                            ),
-                            Column(
-                              children: [
-                                Text(
-                                  'New Recovered',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
-                                    fontSize: 18.0,
-                                    fontWeight: FontWeight.bold,
+                                ],
+                              ),
+                              Column(
+                                children: [
+                                  Text(
+                                    'New Recovered',
+                                    style: TextStyle(
+                                      fontFamily: 'Montserrat',
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
-                                ),
-                                Text(
-                                  data2[index2]['New Recovered'],
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
-                                    fontSize: 18.0,
+                                  Text(
+                                    data2[index2]['New Recovered'],
+                                    style: TextStyle(
+                                      fontFamily: 'Montserrat',
+                                    ),
                                   ),
-                                ),
-                              ],
-                            ),
-                          ],
+                                ],
+                              ),
+                            ],
+                          ),
                         ),
-                      ),
-                      Container(
-                        padding: EdgeInsets.all(10.0),
-                        child: Row(
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                          crossAxisAlignment: CrossAxisAlignment.end,
-                          children: [
-                            Column(
-                              children: [
-                                Text(
-                                  'Total Cases',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
-                                    fontSize: 18.0,
-                                    fontWeight: FontWeight.bold,
+                        Container(
+                          padding: EdgeInsets.all(10.0),
+                          child: Row(
+                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            crossAxisAlignment: CrossAxisAlignment.end,
+                            children: [
+                              Column(
+                                children: [
+                                  Text(
+                                    'Total Cases',
+                                    style: TextStyle(
+                                      fontFamily: 'Montserrat',
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
-                                ),
-                                Text(
-                                  data2[index2]['Total Cases'],
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
-                                    fontSize: 18.0,
+                                  Text(
+                                    data2[index2]['Total Cases'],
+                                    style: TextStyle(
+                                      fontFamily: 'Montserrat',
+                                    ),
                                   ),
-                                ),
-                              ],
-                            ),
-                            Column(
-                              children: [
-                                Text(
-                                  'Total Deaths',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
-                                    fontSize: 18.0,
-                                    fontWeight: FontWeight.bold,
+                                ],
+                              ),
+                              Column(
+                                children: [
+                                  Text(
+                                    'Total Deaths',
+                                    style: TextStyle(
+                                      fontFamily: 'Montserrat',
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
-                                ),
-                                Text(
-                                  data2[index2]['Total Deaths'],
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
-                                    fontSize: 18.0,
+                                  Text(
+                                    data2[index2]['Total Deaths'],
+                                    style: TextStyle(
+                                      fontFamily: 'Montserrat',
+                                    ),
                                   ),
-                                ),
-                              ],
-                            ),
-                            Column(
-                              children: [
-                                Text(
-                                  'Total Recovered',
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
-                                    fontSize: 18.0,
-                                    fontWeight: FontWeight.bold,
+                                ],
+                              ),
+                              Column(
+                                children: [
+                                  Text(
+                                    'Total Recovered',
+                                    style: TextStyle(
+                                      fontFamily: 'Montserrat',
+                                      fontWeight: FontWeight.bold,
+                                    ),
                                   ),
-                                ),
-                                Text(
-                                  data2[index2]['Total Recovered'],
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
-                                    fontSize: 18.0,
+                                  Text(
+                                    data2[index2]['Total Recovered'],
+                                    style: TextStyle(
+                                      fontFamily: 'Montserrat',
+                                    ),
                                   ),
-                                ),
-                              ],
-                            ),
-                          ],
+                                ],
+                              ),
+                            ],
+                          ),
                         ),
-                      ),
-                    ],
+                      ],
+                    ),
                   );
                 },
               ),
             ),
           ),
           Flexible(
-            flex: 3,
+            flex: 4,
             child: new ListView.builder(
               itemCount: data1 == null ? 0 : data1.length,
               itemBuilder: (BuildContext context, int index) {
@@ -232,12 +226,11 @@ class _HomeState extends State<Home> {
                     child: Row(
                       children: [
                         Container(
-                          margin: EdgeInsets.symmetric(horizontal: 9.0),
+                          margin: EdgeInsets.symmetric(horizontal: 8.0),
                           child: Text(
                             data1[index]['Number'],
                             style: TextStyle(
                               fontFamily: 'Montserrat',
-                              fontSize: 18.0,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -250,7 +243,6 @@ class _HomeState extends State<Home> {
                               data1[index]['Country'],
                               style: TextStyle(
                                 fontFamily: 'Montserrat',
-                                fontSize: 19.0,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
@@ -268,7 +260,6 @@ class _HomeState extends State<Home> {
                                     'New Cases:',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 17.0,
                                     ),
                                   ),
                                 ),
@@ -276,7 +267,6 @@ class _HomeState extends State<Home> {
                                   data1[index]['New Cases'],
                                   style: TextStyle(
                                     fontFamily: 'Montserrat',
-                                    fontSize: 16.0,
                                   ),
                                 ),
                                 FittedBox(
@@ -285,7 +275,6 @@ class _HomeState extends State<Home> {
                                     'Total Cases:',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 16.0,
                                     ),
                                   ),
                                 ),
@@ -293,7 +282,6 @@ class _HomeState extends State<Home> {
                                   data1[index]['Total Cases'],
                                   style: TextStyle(
                                     fontFamily: 'Montserrat',
-                                    fontSize: 16.0,
                                   ),
                                 ),
                               ],
@@ -312,7 +300,6 @@ class _HomeState extends State<Home> {
                                     'New Deaths:',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 16.0,
                                     ),
                                   ),
                                 ),
@@ -320,7 +307,6 @@ class _HomeState extends State<Home> {
                                   data1[index]['New Deaths'],
                                   style: TextStyle(
                                     fontFamily: 'Montserrat',
-                                    fontSize: 16.0,
                                   ),
                                 ),
                                 FittedBox(
@@ -329,7 +315,6 @@ class _HomeState extends State<Home> {
                                     'Total Deaths:',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 16.0,
                                     ),
                                   ),
                                 ),
@@ -337,7 +322,6 @@ class _HomeState extends State<Home> {
                                   data1[index]['Total Deaths'],
                                   style: TextStyle(
                                     fontFamily: 'Montserrat',
-                                    fontSize: 16.0,
                                   ),
                                 ),
                               ],
@@ -355,7 +339,6 @@ class _HomeState extends State<Home> {
                                     'New Recovered',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 17.0,
                                     ),
                                   ),
                                 ),
@@ -363,7 +346,6 @@ class _HomeState extends State<Home> {
                                   data1[index]['New Recovered'],
                                   style: TextStyle(
                                     fontFamily: 'Montserrat',
-                                    fontSize: 16.0,
                                   ),
                                 ),
                                 FittedBox(
@@ -371,7 +353,6 @@ class _HomeState extends State<Home> {
                                     'Total Recovered',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 16.0,
                                     ),
                                   ),
                                 ),
@@ -379,7 +360,6 @@ class _HomeState extends State<Home> {
                                   data1[index]['Total Recovered'],
                                   style: TextStyle(
                                     fontFamily: 'Montserrat',
-                                    fontSize: 16.0,
                                   ),
                                 ),
                               ],
