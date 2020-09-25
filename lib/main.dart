@@ -43,7 +43,7 @@ class _HomeState extends State<HomePage> {
         color: Colors.white,
         backgroundColor: Colors.indigo,
         items:[
-          TabItem(icon: Icons.rss_feed, title: 'Cases'),
+          TabItem(icon: Icons.trending_up, title: 'Cases'),
           TabItem(icon: Icons.info_outline, title: 'Info'),
           TabItem(icon: Icons.school, title: 'Education'),
         ],
