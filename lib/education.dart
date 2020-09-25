@@ -12,6 +12,13 @@ class Settings extends StatelessWidget {
           backgroundColor: Colors.greenAccent,
         ),
         body: Container(
+          decoration: BoxDecoration(
+            gradient: LinearGradient(
+                begin: Alignment.topRight,
+                end: Alignment.bottomLeft,
+                colors: [Colors.blue, Colors.red]
+            ),
+          ),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
