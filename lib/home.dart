@@ -84,7 +84,7 @@ class _HomeState extends State<Home> {
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontWeight: FontWeight.bold,
-                              fontSize: 28.0,
+                              fontSize: 26.0,
                             ),
                           ),
                         ),
