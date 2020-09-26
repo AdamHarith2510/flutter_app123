@@ -84,7 +84,7 @@ class _HomeState extends State<Home> {
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontWeight: FontWeight.bold,
-                              fontSize: 26.0,
+                              fontSize: 28.0,
                             ),
                           ),
                         ),
@@ -99,6 +99,7 @@ class _HomeState extends State<Home> {
                                     'New Cases',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
+                                      fontSize: 15.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
@@ -106,6 +107,7 @@ class _HomeState extends State<Home> {
                                     data2[index2]['New Cases'],
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
+                                      fontSize: 18.0,
                                     ),
                                   ),
                                 ],
@@ -116,6 +118,7 @@ class _HomeState extends State<Home> {
                                     'New Deaths',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
+                                      fontSize: 15.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
@@ -123,6 +126,7 @@ class _HomeState extends State<Home> {
                                     data2[index2]['New Deaths'],
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
+                                      fontSize: 18.0,
                                     ),
                                   ),
                                 ],
@@ -133,6 +137,7 @@ class _HomeState extends State<Home> {
                                     'New Recovered',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
+                                      fontSize: 15.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
@@ -140,6 +145,7 @@ class _HomeState extends State<Home> {
                                     data2[index2]['New Recovered'],
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
+                                      fontSize: 18.0,
                                     ),
                                   ),
                                 ],
@@ -159,6 +165,7 @@ class _HomeState extends State<Home> {
                                     'Total Cases',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
+                                      fontSize: 15.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
@@ -166,6 +173,7 @@ class _HomeState extends State<Home> {
                                     data2[index2]['Total Cases'],
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
+                                      fontSize: 18.0,
                                     ),
                                   ),
                                 ],
@@ -176,6 +184,7 @@ class _HomeState extends State<Home> {
                                     'Total Deaths',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
+                                      fontSize: 15.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
@@ -183,6 +192,7 @@ class _HomeState extends State<Home> {
                                     data2[index2]['Total Deaths'],
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
+                                      fontSize: 18.0,
                                     ),
                                   ),
                                 ],
@@ -193,6 +203,7 @@ class _HomeState extends State<Home> {
                                     'Total Recovered',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
+                                      fontSize: 15.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
@@ -200,6 +211,7 @@ class _HomeState extends State<Home> {
                                     data2[index2]['Total Recovered'],
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
+                                      fontSize: 18.0,
                                     ),
                                   ),
                                 ],
@@ -230,6 +242,7 @@ class _HomeState extends State<Home> {
                             data1[index]['Number'],
                             style: TextStyle(
                               fontFamily: 'Montserrat',
+                              fontSize: 18.0,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -242,6 +255,7 @@ class _HomeState extends State<Home> {
                               data1[index]['Country'],
                               style: TextStyle(
                                 fontFamily: 'Montserrat',
+                                fontSize: 15.0,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
