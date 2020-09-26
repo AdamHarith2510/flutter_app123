@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'ppe.dart';
 import 'cov.dart';
+import 'sop.dart';
+import 'ppe.dart';
 import 'more info.dart';
 
 class Info extends StatelessWidget {
@@ -10,6 +11,7 @@ class Info extends StatelessWidget {
         appBar: AppBar(
           title: Text('Info'),
           centerTitle: true,
+          backgroundColor: Colors.indigo,
         ),
       body: Container(
         decoration: BoxDecoration(
@@ -55,7 +57,11 @@ class Info extends StatelessWidget {
                   disabledColor: Colors.grey,
                   disabledTextColor: Colors.black,
                   padding: EdgeInsets.all(8.0),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => SOP()));
+                  },
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
