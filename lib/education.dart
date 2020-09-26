@@ -1,4 +1,6 @@
+import 'dart:async';
 import 'package:flutter/material.dart';
+import 'package:webview_flutter/webview_flutter.dart';
 import 'Past Pandemic.dart';
 import 'Outbreak Stages.dart';
 
@@ -9,7 +11,7 @@ class Settings extends StatelessWidget {
         appBar: AppBar(
           title: Text('Education'),
           centerTitle: true,
-          backgroundColor: Colors.greenAccent,
+          backgroundColor: Colors.indigo,
         ),
         body: Container(
           decoration: BoxDecoration(
@@ -83,7 +85,13 @@ class Settings extends StatelessWidget {
                     disabledColor: Colors.grey,
                     disabledTextColor: Colors.black,
                     padding: EdgeInsets.all(8.0),
-                    onPressed: () {},
+                    onPressed: () {
+                      Navigator.of(context).push(MaterialPageRoute(
+                          builder: (BuildContext context) => MyWebView(
+                            title: "Alligator.io",
+                            selectedUrl: "https://alligator.io",
+                          )));
+                    },
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
                       children: <Widget>[
@@ -101,5 +109,33 @@ class Settings extends StatelessWidget {
           ),
         )
     );
+  }
+}
+
+class MyWebView extends StatelessWidget {
+  final String title;
+  final String selectedUrl;
+
+  final Completer<WebViewController> _controller =
+  Completer<WebViewController>();
+
+  MyWebView({
+    @required this.title,
+    @required this.selectedUrl,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+        appBar: AppBar(
+          title: Text(title),
+        ),
+        body: WebView(
+          initialUrl: selectedUrl,
+          javascriptMode: JavascriptMode.unrestricted,
+          onWebViewCreated: (WebViewController webViewController) {
+            _controller.complete(webViewController);
+          },
+        ));
   }
 }
