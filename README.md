@@ -1,6 +1,6 @@
 # flutter_app123
 
-A new Flutter application.
+An app on Covid-19 for the Science Bridge Academy Competition.
 
 ## Getting Started
 
