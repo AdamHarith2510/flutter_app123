@@ -40,6 +40,7 @@ class _MyHomePageState extends State<MyHomePage> {
         controller: _pageController,
       ),
       bottomNavigationBar: BottomNavigationBar(
+        backgroundColor: Colors.blue,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
               icon: Icon(Icons.trending_up),
@@ -55,6 +56,7 @@ class _MyHomePageState extends State<MyHomePage> {
           ),
         ],
         currentIndex: _selectedItem,
+        selectedItemColor: Colors.white,
         onTap: (index) {
           setState(() {
             _selectedItem = index;
