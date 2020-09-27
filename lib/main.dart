@@ -1,6 +1,4 @@
-import 'package:convex_bottom_bar/convex_bottom_bar.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 import 'home.dart';
 import 'info.dart';
 import 'education.dart';
@@ -8,48 +6,60 @@ import 'education.dart';
 void main() => runApp(MyApp());
 
 class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
-      theme: ThemeData.light(),
-      darkTheme: ThemeData.dark(),
-      home: HomePage(),
+      title: 'Bottom Navigation Bar',
+      home: MyHomePage(),
     );
   }
 }
 
-class HomePage extends StatefulWidget {
-  HomePage({Key key}) : super(key: key);
-
+class MyHomePage extends StatefulWidget {
+  MyHomePage({Key key}) : super(key: key);
 
   @override
-  _HomeState createState() => _HomeState();
+  _MyHomePageState createState() => _MyHomePageState();
 }
 
-class _HomeState extends State<HomePage> {
-
-  int selectedPage = 0;
-  final _pageOptions = [Home(), Info(), Settings()];
+class _MyHomePageState extends State<MyHomePage> {
+  int _selectedItem = 0;
+  var _pages = [Home(), Info(), Settings()];
+  var _pageController = PageController();
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-
-      body: _pageOptions[selectedPage],
-      bottomNavigationBar: ConvexAppBar(
-        color: Colors.white,
-        backgroundColor: Colors.indigo,
-        items:[
-          TabItem(icon: Icons.trending_up, title: 'Cases'),
-          TabItem(icon: Icons.info_outline, title: 'Info'),
-          TabItem(icon: Icons.school, title: 'Education'),
-        ],
-        initialActiveIndex: 0,
-        onTap: (int i ){
+      body: PageView(
+        children: _pages,
+        onPageChanged: (index) {
           setState(() {
-            selectedPage = i;
+            _selectedItem = index;
+          });
+        },
+        controller: _pageController,
+      ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+              icon: Icon(Icons.trending_up),
+              title: Text('Cases'),
+          ),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.info_outline),
+              title: Text('Info'),
+          ),
+          BottomNavigationBarItem(
+              icon: Icon(Icons.school),
+              title: Text('Education'),
+          ),
+        ],
+        currentIndex: _selectedItem,
+        onTap: (index) {
+          setState(() {
+            _selectedItem = index;
+            _pageController.animateToPage(_selectedItem,
+                duration: Duration(milliseconds: 200), curve: Curves.linear);
           });
         },
       ),
