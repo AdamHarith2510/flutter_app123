@@ -16,7 +16,7 @@ class _HomeState extends State<Home> {
 
   Future<String> getData1() async {
     http.Response response = await http.get(
-      Uri.encodeFull('https://sheet.best/api/sheets/a6abf1e9-45e5-4488-b517-7f88331f32c2'),
+      Uri.encodeFull('https://sheet.best/api/sheets/3e58c7e2-fdeb-4395-b122-0cbbf544d081'),
       headers: {
         'Accept': 'application/json'
       }
@@ -27,7 +27,7 @@ class _HomeState extends State<Home> {
   }
   Future<String> getData2() async {
     http.Response response = await http.get(
-        Uri.encodeFull('https://sheet.best/api/sheets/8a3283e9-d4e0-4aab-b927-ceb2a341c1e6'),
+        Uri.encodeFull('https://sheet.best/api/sheets/0320fe24-ab33-496f-84f1-ab03d93d1f53'),
         headers: {
           'Accept': 'application/json'
         }
@@ -99,7 +99,6 @@ class _HomeState extends State<Home> {
                                     'New Cases',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 15.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
@@ -107,7 +106,6 @@ class _HomeState extends State<Home> {
                                     data2[index2]['New Cases'],
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 18.0,
                                     ),
                                   ),
                                 ],
@@ -118,7 +116,6 @@ class _HomeState extends State<Home> {
                                     'New Deaths',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 15.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
@@ -126,7 +123,6 @@ class _HomeState extends State<Home> {
                                     data2[index2]['New Deaths'],
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 18.0,
                                     ),
                                   ),
                                 ],
@@ -137,7 +133,6 @@ class _HomeState extends State<Home> {
                                     'New Recovered',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 15.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
@@ -145,7 +140,6 @@ class _HomeState extends State<Home> {
                                     data2[index2]['New Recovered'],
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 18.0,
                                     ),
                                   ),
                                 ],
@@ -165,7 +159,6 @@ class _HomeState extends State<Home> {
                                     'Total Cases',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 15.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
@@ -173,7 +166,6 @@ class _HomeState extends State<Home> {
                                     data2[index2]['Total Cases'],
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 18.0,
                                     ),
                                   ),
                                 ],
@@ -184,7 +176,6 @@ class _HomeState extends State<Home> {
                                     'Total Deaths',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 15.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
@@ -192,7 +183,6 @@ class _HomeState extends State<Home> {
                                     data2[index2]['Total Deaths'],
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 18.0,
                                     ),
                                   ),
                                 ],
@@ -203,7 +193,6 @@ class _HomeState extends State<Home> {
                                     'Total Recovered',
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 15.0,
                                       fontWeight: FontWeight.bold,
                                     ),
                                   ),
@@ -211,7 +200,6 @@ class _HomeState extends State<Home> {
                                     data2[index2]['Total Recovered'],
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
-                                      fontSize: 18.0,
                                     ),
                                   ),
                                 ],
@@ -242,7 +230,6 @@ class _HomeState extends State<Home> {
                             data1[index]['Number'],
                             style: TextStyle(
                               fontFamily: 'Montserrat',
-                              fontSize: 18.0,
                               fontWeight: FontWeight.bold,
                             ),
                           ),
@@ -255,7 +242,6 @@ class _HomeState extends State<Home> {
                               data1[index]['Country'],
                               style: TextStyle(
                                 fontFamily: 'Montserrat',
-                                fontSize: 15.0,
                                 fontWeight: FontWeight.bold,
                               ),
                             ),
