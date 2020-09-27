@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
+import 'package:page_transition/page_transition.dart';
 import 'Past Pandemic.dart';
 import 'Outbreak Stages.dart';
 
@@ -37,7 +38,7 @@ class Settings extends StatelessWidget {
                     onPressed: () {
                       Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => Outbreakstages()));
+                          PageTransition(type: PageTransitionType.rightToLeftWithFade, child: Outbreakstages()));
                     },
                     child: Column(
                       mainAxisSize: MainAxisSize.min,
@@ -60,7 +61,9 @@ class Settings extends StatelessWidget {
                     onPressed: () {
                       Navigator.push(
                           context,
-                          MaterialPageRoute(builder: (context) => Pastpandemic()));
+                          PageTransition(type: PageTransitionType.rightToLeftWithFade, child: Pastpandemic())
+
+                      );
                     },
                     child: Column(
                       mainAxisSize: MainAxisSize.min,

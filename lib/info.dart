@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'cov.dart';
-import 'sop.dart';
+import 'package:page_transition/page_transition.dart';
 import 'ppe.dart';
+import 'cov.dart';
 import 'more info.dart';
 
 class Info extends StatelessWidget {
@@ -11,7 +11,6 @@ class Info extends StatelessWidget {
         appBar: AppBar(
           title: Text('Info'),
           centerTitle: true,
-          backgroundColor: Colors.indigo,
         ),
       body: Container(
         decoration: BoxDecoration(
@@ -37,7 +36,7 @@ class Info extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => COV()));
+                        PageTransition(type: PageTransitionType.rightToLeftWithFade, child: COV()));
                   },
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
@@ -57,11 +56,7 @@ class Info extends StatelessWidget {
                   disabledColor: Colors.grey,
                   disabledTextColor: Colors.black,
                   padding: EdgeInsets.all(8.0),
-                  onPressed: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(builder: (context) => SOP()));
-                  },
+                  onPressed: () {},
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
@@ -88,7 +83,7 @@ class Info extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => Outbreak()));
+                        PageTransition(type: PageTransitionType.rightToLeftWithFade, child: Outbreak()));
                   },
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
@@ -111,7 +106,7 @@ class Info extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                         context,
-                        MaterialPageRoute(builder: (context) => MoreInfo()));
+                        PageTransition(type: PageTransitionType.rightToLeftWithFade, child: MoreInfo()));
                   },
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
