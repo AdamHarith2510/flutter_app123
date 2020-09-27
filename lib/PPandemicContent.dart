@@ -168,7 +168,7 @@ class Blackdeath extends StatelessWidget {
                       color: Colors.white,
                     ),
                   ),
-                  Image.asset('assets/images/Black2.jpg'),
+                  Image.asset('assets/images/Black3.png'),
                   Text(
                     '\n     They know that the bacillus travels from person to person through the air, as well as through the bite of '
                         'infected fleas and rats. Both of these pests could be found almost everywhere in medieval Europe, but they were '
@@ -220,7 +220,7 @@ class Blackdeath extends StatelessWidget {
                       color: Colors.white,
                     ),
                   ),
-                  Image.asset('assets/images/Black2.jpg'),
+                  Image.asset('assets/images/Black4.jpg'),
                 ],
               ),
             ),
@@ -258,7 +258,7 @@ class Blackdeath extends StatelessWidget {
                       color: Colors.white,
                     ),
                   ),
-                  Image.asset('assets/images/Black2.jpg'),
+                  Image.asset('assets/images/Black5.jpg'),
                   Text(
                     '\n     Modern sanitation and public-health practices have greatly mitigated the impact of the disease but have '
                         'not eliminated it. While antibiotics are available to treat the Black Death, according to The World Health '
