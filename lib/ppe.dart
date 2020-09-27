@@ -1,41 +1,75 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class Outbreak extends StatelessWidget {
+class PPE extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
         title: Text('Personal Protective Equipment'),
-        backgroundColor: Colors.purple[900],
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           RaisedButton(
-            child: Text('Face Masks'),
             onPressed: () {
               Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => FaceMasks()));
             },
+            child: Row(
+                children: [
+                  Image.asset(
+                    'assets/images/facemask2.png',
+                    height: 100,
+                    width: 100,
+                  ),
+                  Container(
+                    margin: EdgeInsets.all(10.0),
+                    child: Text('Facemasks'),
+                  )
+                ]
+            ),
           ),
           RaisedButton(
-            child: Text('Hand Sanitisers'),
-            onPressed: () {
-              Navigator.push(
-                  context,
-                  MaterialPageRoute(builder: (context) => HandSanitisers()));
-            },
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(builder: (context) => HandSanitisers()));
+              },
+              child: Row(
+                children: [
+                  Image.asset(
+                    'assets/images/handsanitizer2.png',
+                    height: 100,
+                    width: 100,
+                  ),
+                  Container(
+                    margin: EdgeInsets.all(10.0),
+                    child: Text('Hand Sanitizers'),
+                  ),
+                ],
+              )
           ),
           RaisedButton(
-            child: Text('Protective Clothing'),
             onPressed: () {
               Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => ProtectiveClothing()));
             },
-          ),
+            child: Row(
+              children: [
+                Image.asset(
+                  'assets/images/clothing2.png',
+                  height: 100,
+                  width: 100,
+                ),
+                Container(
+                  margin: EdgeInsets.all(10.0),
+                  child: Text('Protective Clothing'),
+                ),
+              ],
+            ),
+          )
         ],
       ),
     );
@@ -48,7 +82,6 @@ class FaceMasks extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Face Masks'),
-        backgroundColor: Colors.purple[900],
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -265,7 +298,6 @@ class HandSanitisers extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Hand Sanitisers'),
-        backgroundColor: Colors.purple[900],
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -471,7 +503,6 @@ class ProtectiveClothing extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Protective Clothing'),
-        backgroundColor: Colors.purple[900],
       ),
       body: SingleChildScrollView(
         child: Column(
