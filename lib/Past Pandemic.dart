@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import 'PPandemicContent.dart';
+import 'package:page_transition/page_transition.dart';
+
 
 class Pastpandemic extends StatelessWidget {
   @override
@@ -32,7 +34,7 @@ class Pastpandemic extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Blackdeath()));
+                    PageTransition(type: PageTransitionType.rightToLeftWithFade, child: Blackdeath()));
               },
             ),
           ),
@@ -55,8 +57,7 @@ class Pastpandemic extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Justinian())
-                );
+                    PageTransition(type: PageTransitionType.rightToLeftWithFade, child: Justinian()));
               },
             ),
           ),
@@ -78,7 +79,7 @@ class Pastpandemic extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Swineflu()));
+                    PageTransition(type: PageTransitionType.rightToLeftWithFade, child: Swineflu()));
               },
             ),
           ),
@@ -100,7 +101,7 @@ class Pastpandemic extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                     context,
-                    MaterialPageRoute(builder: (context) => Spanishflu()));
+                    PageTransition(type: PageTransitionType.rightToLeftWithFade, child: Spanishflu()));
               },
             ),
           ),

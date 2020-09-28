@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:page_transition/page_transition.dart';
 
 class Outbreakstages extends StatelessWidget {
   @override
@@ -31,7 +32,7 @@ class Outbreakstages extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => Pandemic()));
+                      PageTransition(type: PageTransitionType.rightToLeftWithFade, child: Pandemic()));
                 },
               ),
             ),
@@ -52,7 +53,7 @@ class Outbreakstages extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => Epidemic()));
+                      PageTransition(type: PageTransitionType.rightToLeftWithFade, child: Epidemic()));
                 },
               ),
             ),
@@ -73,7 +74,7 @@ class Outbreakstages extends StatelessWidget {
                 onPressed: () {
                   Navigator.push(
                       context,
-                      MaterialPageRoute(builder: (context) => Endemic()));
+                      PageTransition(type: PageTransitionType.rightToLeftWithFade, child: Endemic()));
                 },
               ),
             ),

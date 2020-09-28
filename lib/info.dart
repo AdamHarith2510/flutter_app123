@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
 import 'ppe.dart';
-import 'sop.dart';
 import 'cov.dart';
 import 'more info.dart';
 
@@ -57,11 +56,8 @@ class Info extends StatelessWidget {
                   disabledColor: Colors.grey,
                   disabledTextColor: Colors.black,
                   padding: EdgeInsets.all(8.0),
-                  onPressed: () {
-                    Navigator.push(
-                        context,
-                        PageTransition(type: PageTransitionType.rightToLeftWithFade, child: SOP()));
-                  },                  child: Column(
+                  onPressed: () {},
+                  child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
                       new Image.asset(
@@ -87,7 +83,7 @@ class Info extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                         context,
-                        PageTransition(type: PageTransitionType.rightToLeftWithFade, child: PPE()));
+                        PageTransition(type: PageTransitionType.rightToLeftWithFade, child: Outbreak()));
                   },
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
