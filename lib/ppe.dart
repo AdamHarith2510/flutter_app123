@@ -13,7 +13,9 @@ class PPE extends StatelessWidget {
         children: [
           RaisedButton(
             onPressed: () {
-
+              Navigator.push(
+                          context,
+                          PageTransition(type: PageTransitionType.rightToLeftWithFade, child: FaceMasks()));
             },
             child: Row(
                 children: [
@@ -31,6 +33,9 @@ class PPE extends StatelessWidget {
           ),
           RaisedButton(
               onPressed: () {
+                Navigator.push(
+                          context,
+                          PageTransition(type: PageTransitionType.rightToLeftWithFade, child: HandSanitizers()));
               },
               child: Row(
                 children: [
@@ -48,7 +53,9 @@ class PPE extends StatelessWidget {
           ),
           RaisedButton(
             onPressed: () {
-
+              Navigator.push(
+                          context,
+                          PageTransition(type: PageTransitionType.rightToLeftWithFade, child: ProtectiveClothing()));
             },
             child: Row(
               children: [
