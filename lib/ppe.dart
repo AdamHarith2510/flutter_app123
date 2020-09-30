@@ -36,7 +36,7 @@ class PPE extends StatelessWidget {
               onPressed: () {
                 Navigator.push(
                           context,
-                          PageTransition(type: PageTransitionType.rightToLeftWithFade, child: HandSanitizers()));
+                          PageTransition(type: PageTransitionType.rightToLeftWithFade, child: HandSanitisers()));
               },
               child: Row(
                 children: [
