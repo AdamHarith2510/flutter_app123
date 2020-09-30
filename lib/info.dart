@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
 import 'ppe.dart';
 import 'cov.dart';
+import 'sop.dart';
 import 'more info.dart';
 
 class Info extends StatelessWidget {
@@ -56,7 +57,11 @@ class Info extends StatelessWidget {
                   disabledColor: Colors.grey,
                   disabledTextColor: Colors.black,
                   padding: EdgeInsets.all(8.0),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                        context,
+                        PageTransition(type: PageTransitionType.rightToLeftWithFade, child: SOP()));
+                  },
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
                     children: <Widget>[
