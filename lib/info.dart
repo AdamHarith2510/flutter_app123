@@ -88,7 +88,7 @@ class Info extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                         context,
-                        PageTransition(type: PageTransitionType.rightToLeftWithFade, child: Outbreak()));
+                        PageTransition(type: PageTransitionType.rightToLeftWithFade, child: PPE()));
                   },
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
