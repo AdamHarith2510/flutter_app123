@@ -30,7 +30,7 @@ class Settings extends StatelessWidget {
                 children: [
                   RaisedButton(
                     shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(12.0)),
-                    color: Colors.blue[400],
+                    color: Colors.blue[500],
                     textColor: Colors.white,
                     disabledColor: Colors.grey,
                     disabledTextColor: Colors.black,
@@ -53,7 +53,7 @@ class Settings extends StatelessWidget {
                   ),
                   RaisedButton(
                     shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(12.0)),
-                    color: Colors.green[400],
+                    color: Colors.green[500],
                     textColor: Colors.white,
                     disabledColor: Colors.grey,
                     disabledTextColor: Colors.black,
@@ -83,7 +83,7 @@ class Settings extends StatelessWidget {
                 children: [
                   RaisedButton(
                     shape: new RoundedRectangleBorder(borderRadius: new BorderRadius.circular(12.0)),
-                    color: Colors.red[400],
+                    color: Colors.red[500],
                     textColor: Colors.white,
                     disabledColor: Colors.grey,
                     disabledTextColor: Colors.black,

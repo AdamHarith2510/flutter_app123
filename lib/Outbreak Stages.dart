@@ -8,7 +8,7 @@ class Outbreakstages extends StatelessWidget {
         appBar: AppBar(
           title: Text('Outbreak Stages'),
           centerTitle: true,
-          backgroundColor: Colors.amber,
+          backgroundColor: Colors.blue[500],
         ),
         body: Column(
           mainAxisAlignment: MainAxisAlignment.start,

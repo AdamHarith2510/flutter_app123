@@ -10,7 +10,7 @@ class Pastpandemic extends StatelessWidget {
       appBar: AppBar(
         title: Text('Past Pandemic'),
         centerTitle: true,
-        backgroundColor: Colors.pinkAccent,
+        backgroundColor: Colors.green[500],
       ),
       body: Column(
         mainAxisAlignment: MainAxisAlignment.start,
