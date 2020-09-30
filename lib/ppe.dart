@@ -84,7 +84,6 @@ class FaceMasks extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Face Masks'),
-        backgroundColor: Colors.purple[900],
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -301,7 +300,6 @@ class HandSanitisers extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Hand Sanitisers'),
-        backgroundColor: Colors.purple[900],
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -507,7 +505,6 @@ class ProtectiveClothing extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Protective Clothing'),
-        backgroundColor: Colors.purple[900],
       ),
       body: SingleChildScrollView(
         child: Column(
