@@ -1,3 +1,4 @@
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:page_transition/page_transition.dart';
 
@@ -17,11 +18,24 @@ class Outbreakstages extends StatelessWidget {
             Expanded(
               flex:1,
               child: RaisedButton(
-                child: Text(
-                  'PANDEMIC',
-                  style: TextStyle(
-                    fontSize: 40,
-                  ),
+                child: Stack(
+                  alignment: AlignmentDirectional.center,
+                  children: [
+                    Container(
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                          image: AssetImage('assets/images/pandemicpic.png'),
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                    ),
+                    Text(
+                      'PANDEMIC',
+                      style: TextStyle(
+                        fontSize: 40,
+                      ),
+                    ),
+                  ],
                 ),
                 shape: new RoundedRectangleBorder(),
                 color: Colors.pink[300],
@@ -39,11 +53,24 @@ class Outbreakstages extends StatelessWidget {
             Expanded(
               flex: 1,
               child: RaisedButton(
-                child: Text(
-                    'EPIDEMIC',
-                    style: TextStyle(
-                      fontSize: 40,
+                child: Stack(
+                  alignment: AlignmentDirectional.center,
+                  children: [
+                    Container(
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                          image: AssetImage('assets/images/epidemicpic.png'),
+                          fit: BoxFit.cover,
+                        ),
+                      ),
                     ),
+                    Text(
+                      'EPIDEMIC',
+                      style: TextStyle(
+                        fontSize: 40,
+                      ),
+                    ),
+                  ],
                 ),
                 color: Colors.yellowAccent[400],
                 textColor: Colors.white,
@@ -60,11 +87,24 @@ class Outbreakstages extends StatelessWidget {
             Expanded(
               flex: 1,
               child: RaisedButton(
-                child: Text(
-                  'ENDEMIC',
-                  style: TextStyle(
-                    fontSize: 40,
-                  ),
+                child: Stack(
+                  alignment: AlignmentDirectional.center,
+                  children: [
+                    Container(
+                      decoration: BoxDecoration(
+                        image: DecorationImage(
+                          image: AssetImage('assets/images/endemicpic.png'),
+                          fit: BoxFit.cover,
+                        ),
+                      ),
+                    ),
+                    Text(
+                      'ENDEMIC',
+                      style: TextStyle(
+                        fontSize: 40,
+                      ),
+                    ),
+                  ],
                 ),
                 color: Colors.blue[500],
                 textColor: Colors.white,
