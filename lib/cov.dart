@@ -8,13 +8,12 @@ class COV extends StatelessWidget {
         title: Text('Covid-19 (Facts 101)'),
       ),
       body: Container(
+        constraints: BoxConstraints.expand(),
         decoration: BoxDecoration(
-          gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [Colors.blue[800], Colors.pink[800]]
-          ),
-        ),
+            image: DecorationImage(
+                image: AssetImage("assets/images/bg3.jpg"),
+                fit: BoxFit.cover)),
+
         child: SingleChildScrollView(
           child: Column(
             children: [

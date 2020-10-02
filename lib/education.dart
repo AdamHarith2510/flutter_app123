@@ -15,13 +15,11 @@ class Settings extends StatelessWidget {
           backgroundColor: Colors.indigo,
         ),
         body: Container(
+          constraints: BoxConstraints.expand(),
           decoration: BoxDecoration(
-            gradient: LinearGradient(
-                begin: Alignment.topLeft,
-                end: Alignment.bottomRight,
-                colors: [Colors.blue, Colors.red]
-            ),
-          ),
+              image: DecorationImage(
+                  image: AssetImage("assets/images/bg2.jpg"),
+                  fit: BoxFit.cover)),
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [

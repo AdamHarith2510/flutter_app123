@@ -47,13 +47,12 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      constraints: BoxConstraints.expand(),
       decoration: BoxDecoration(
-        gradient: LinearGradient(
-            begin: Alignment.topRight,
-            end: Alignment.bottomLeft,
-            colors: [Colors.blue, Colors.red]
-        ),
-      ),
+          image: DecorationImage(
+              image: AssetImage("assets/images/bg2.jpg"),
+              fit: BoxFit.cover)),
+
       child:  Column(
         children: [
           Flexible(
@@ -66,7 +65,7 @@ class _HomeState extends State<Home> {
                 ),
                 borderRadius: BorderRadius.circular(20.0),
                 image: DecorationImage(
-                  image: AssetImage('assets/images/MM2.jpg'),
+                  image: AssetImage('assets/images/MM3.png'),
                   fit: BoxFit.fitHeight,
                 ),
               ),

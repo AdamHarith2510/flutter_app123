@@ -14,13 +14,11 @@ class Info extends StatelessWidget {
           centerTitle: true,
         ),
       body: Container(
+        constraints: BoxConstraints.expand(),
         decoration: BoxDecoration(
-          gradient: LinearGradient(
-              begin: Alignment.topCenter,
-              end: Alignment.bottomCenter,
-              colors: [Colors.blue, Colors.red]
-          ),
-        ),
+            image: DecorationImage(
+                image: AssetImage("assets/images/bg2.jpg"),
+                fit: BoxFit.cover)),
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
@@ -88,7 +86,7 @@ class Info extends StatelessWidget {
                   onPressed: () {
                     Navigator.push(
                         context,
-                        PageTransition(type: PageTransitionType.rightToLeftWithFade, child: PPE()));
+                        PageTransition(type: PageTransitionType.rightToLeftWithFade, child: Outbreak()));
                   },
                   child: Column(
                     mainAxisSize: MainAxisSize.min,
