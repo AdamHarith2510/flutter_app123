@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'home.dart';
 import 'info.dart';
 import 'education.dart';
+import 'qr_scanner.dart';
 
 void main() => runApp(MyApp());
 
@@ -24,7 +25,7 @@ class MyHomePage extends StatefulWidget {
 
 class _MyHomePageState extends State<MyHomePage> {
   int _selectedItem = 0;
-  var _pages = [Home(), Info(), Settings()];
+  var _pages = [Home(), Info(), Settings(), QRScan()];
   var _pageController = PageController();
 
   @override
@@ -40,6 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
         controller: _pageController,
       ),
       bottomNavigationBar: BottomNavigationBar(
+        type: BottomNavigationBarType.fixed, // This is all you need!
         backgroundColor: Colors.blue,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
@@ -54,9 +56,15 @@ class _MyHomePageState extends State<MyHomePage> {
               icon: Icon(Icons.school),
               title: Text('Education'),
           ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.crop_free),
+            title: Text('QR Scan'),
+          ),
         ],
         currentIndex: _selectedItem,
-        selectedItemColor: Colors.white,
+        selectedItemColor: Colors.black,
+        unselectedItemColor: Colors.white,
+        showUnselectedLabels: true,
         onTap: (index) {
           setState(() {
             _selectedItem = index;
