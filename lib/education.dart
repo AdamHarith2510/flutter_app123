@@ -89,8 +89,8 @@ class Settings extends StatelessWidget {
                     onPressed: () {
                       Navigator.of(context).push(MaterialPageRoute(
                           builder: (BuildContext context) => MyWebView(
-                            title: "Alligator.io",
-                            selectedUrl: "https://alligator.io",
+                            title: "Quizizz",
+                            selectedUrl: "https://quizizz.com/join?gc=03177776",
                           )));
                     },
                     child: Column(
