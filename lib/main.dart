@@ -73,6 +73,12 @@ class _MyHomePageState extends State<MyHomePage> {
           });
         },
       ),
+      floatingActionButton: FloatingActionButton(
+        child: Icon(Icons.notifications),
+        onPressed: () {
+          
+        },
+      ),
     );
   }
 }
