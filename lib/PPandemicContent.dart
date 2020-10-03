@@ -570,7 +570,7 @@ class Swineflu extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Swine Flu'),
-        backgroundColor: Colors.blue[900],
+        backgroundColor: Colors.pink[900],
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -579,12 +579,12 @@ class Swineflu extends StatelessWidget {
               decoration: BoxDecoration(
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.greenAccent.withOpacity(0.8),
+                      color: Colors.pinkAccent.withOpacity(0.8),
                       spreadRadius: 5,
                       blurRadius: 7,
                     )
                   ],
-                  color: Colors.blue[300],
+                  color: Colors.pink[300],
                   borderRadius: BorderRadius.all(Radius.circular(20.0))
               ),
               padding: EdgeInsets.all(15.0),
@@ -657,12 +657,12 @@ class Swineflu extends StatelessWidget {
               decoration: BoxDecoration(
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.greenAccent.withOpacity(0.8),
+                      color: Colors.pinkAccent.withOpacity(0.8),
                       spreadRadius: 5,
                       blurRadius: 7,
                     )
                   ],
-                  color: Colors.blue[300],
+                  color: Colors.pink[300],
                   borderRadius: BorderRadius.all(Radius.circular(20.0))
               ),
               padding: EdgeInsets.all(15.0),
@@ -707,12 +707,12 @@ class Swineflu extends StatelessWidget {
               decoration: BoxDecoration(
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.greenAccent.withOpacity(0.8),
+                      color: Colors.pinkAccent.withOpacity(0.8),
                       spreadRadius: 5,
                       blurRadius: 7,
                     )
                   ],
-                  color: Colors.blue[300],
+                  color: Colors.pink[300],
                   borderRadius: BorderRadius.all(Radius.circular(20.0))
               ),
               padding: EdgeInsets.all(15.0),
@@ -755,12 +755,12 @@ class Swineflu extends StatelessWidget {
               decoration: BoxDecoration(
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.greenAccent.withOpacity(0.8),
+                      color: Colors.pinkAccent.withOpacity(0.8),
                       spreadRadius: 5,
                       blurRadius: 7,
                     )
                   ],
-                  color: Colors.blue[300],
+                  color: Colors.pink[300],
                   borderRadius: BorderRadius.all(Radius.circular(20.0))
               ),
               padding: EdgeInsets.all(15.0),
@@ -793,12 +793,12 @@ class Swineflu extends StatelessWidget {
               decoration: BoxDecoration(
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.greenAccent.withOpacity(0.8),
+                      color: Colors.pinkAccent.withOpacity(0.8),
                       spreadRadius: 5,
                       blurRadius: 7,
                     )
                   ],
-                  color: Colors.blue[300],
+                  color: Colors.pink[300],
                   borderRadius: BorderRadius.all(Radius.circular(20.0))
               ),
               padding: EdgeInsets.all(15.0),
@@ -861,7 +861,7 @@ class Spanishflu extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Spanish Flu'),
-        backgroundColor: Colors.blue[900],
+        backgroundColor: Colors.amber[900],
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -870,12 +870,12 @@ class Spanishflu extends StatelessWidget {
               decoration: BoxDecoration(
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.greenAccent.withOpacity(0.8),
+                      color: Colors.amberAccent.withOpacity(0.8),
                       spreadRadius: 5,
                       blurRadius: 7,
                     )
                   ],
-                  color: Colors.blue[300],
+                  color: Colors.amber,
                   borderRadius: BorderRadius.all(Radius.circular(20.0))
               ),
               padding: EdgeInsets.all(15.0),
@@ -919,12 +919,12 @@ class Spanishflu extends StatelessWidget {
               decoration: BoxDecoration(
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.blueGrey.withOpacity(0.8),
+                      color: Colors.amberAccent.withOpacity(0.8),
                       spreadRadius: 5,
                       blurRadius: 7,
                     )
                   ],
-                  color: Colors.blue[300],
+                  color: Colors.amber,
                   borderRadius: BorderRadius.all(Radius.circular(20.0))
               ),
               padding: EdgeInsets.all(15.0),
@@ -968,12 +968,12 @@ class Spanishflu extends StatelessWidget {
               decoration: BoxDecoration(
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.greenAccent.withOpacity(0.8),
+                      color: Colors.amberAccent.withOpacity(0.8),
                       spreadRadius: 5,
                       blurRadius: 7,
                     )
                   ],
-                  color: Colors.blue[300],
+                  color: Colors.amber,
                   borderRadius: BorderRadius.all(Radius.circular(20.0))
               ),
               padding: EdgeInsets.all(15.0),
@@ -1017,12 +1017,12 @@ class Spanishflu extends StatelessWidget {
               decoration: BoxDecoration(
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.greenAccent.withOpacity(0.8),
+                      color: Colors.amberAccent.withOpacity(0.8),
                       spreadRadius: 5,
                       blurRadius: 7,
                     )
                   ],
-                  color: Colors.blue[300],
+                  color: Colors.amber,
                   borderRadius: BorderRadius.all(Radius.circular(20.0))
               ),
               padding: EdgeInsets.all(15.0),
@@ -1058,12 +1058,12 @@ class Spanishflu extends StatelessWidget {
               decoration: BoxDecoration(
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.greenAccent.withOpacity(0.8),
+                      color: Colors.amberAccent.withOpacity(0.8),
                       spreadRadius: 5,
                       blurRadius: 7,
                     )
                   ],
-                  color: Colors.blue[300],
+                  color: Colors.amber,
                   borderRadius: BorderRadius.all(Radius.circular(20.0))
               ),
               padding: EdgeInsets.all(15.0),
@@ -1117,12 +1117,12 @@ class Spanishflu extends StatelessWidget {
               decoration: BoxDecoration(
                   boxShadow: [
                     BoxShadow(
-                      color: Colors.greenAccent.withOpacity(0.8),
+                      color: Colors.amberAccent.withOpacity(0.8),
                       spreadRadius: 5,
                       blurRadius: 7,
                     )
                   ],
-                  color: Colors.blue[300],
+                  color: Colors.amber,
                   borderRadius: BorderRadius.all(Radius.circular(20.0))
               ),
               padding: EdgeInsets.all(15.0),
