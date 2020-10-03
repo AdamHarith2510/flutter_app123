@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:page_transition/page_transition.dart';
 import 'home.dart';
 import 'info.dart';
 import 'education.dart';
 import 'qr_scanner.dart';
+import 'notification.dart';
 
 void main() => runApp(MyApp());
 
@@ -45,16 +47,16 @@ class _MyHomePageState extends State<MyHomePage> {
         backgroundColor: Colors.blue,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-              icon: Icon(Icons.trending_up),
-              title: Text('Cases'),
+            icon: Icon(Icons.trending_up),
+            title: Text('Cases'),
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.info_outline),
-              title: Text('Info'),
+            icon: Icon(Icons.info_outline),
+            title: Text('Info'),
           ),
           BottomNavigationBarItem(
-              icon: Icon(Icons.school),
-              title: Text('Education'),
+            icon: Icon(Icons.school),
+            title: Text('Education'),
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.crop_free),
@@ -76,7 +78,9 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.notifications),
         onPressed: () {
-          
+          Navigator.push(
+              context,
+              PageTransition(type: PageTransitionType.bottomToTop, child: noti()));
         },
       ),
     );
