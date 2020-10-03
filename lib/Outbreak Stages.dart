@@ -202,7 +202,7 @@ class Epidemic extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Epidemic'),
-        backgroundColor: Colors.green[900],
+        backgroundColor: Colors.yellow[900],
       ),
       body: SingleChildScrollView(
         child: Column(
@@ -216,7 +216,7 @@ class Epidemic extends StatelessWidget {
                       blurRadius: 7,
                     )
                   ],
-                  color: Colors.green[300],
+                  color: Colors.amber,
                   borderRadius: BorderRadius.all(Radius.circular(20.0))
               ),
               padding: EdgeInsets.all(15.0),
