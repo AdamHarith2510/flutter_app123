@@ -19,12 +19,25 @@ class Pastpandemic extends StatelessWidget {
           Expanded(
             flex:1,
             child: RaisedButton(
-              child: Text(
-                'BLACK DEATH',
-                style: TextStyle(
-                  fontSize: 40,
-                  fontFamily: 'Montserrat',
-                ),
+              child: Stack(
+                alignment: AlignmentDirectional.center,
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/bdbp.png'),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+                  Text(
+                    'BLACK DEATH',
+                    style: TextStyle(
+                      fontSize: 40,
+                      fontFamily: 'Montserrat',
+                    ),
+                  ),
+                ],
               ),
               color: Colors.blue[400],
               textColor: Colors.white,
@@ -41,13 +54,26 @@ class Pastpandemic extends StatelessWidget {
           Expanded(
             flex: 1,
             child: RaisedButton(
-              child: Text(
-                "JUSTINIAN'S PLAGUE",
-                textAlign: TextAlign.center,
-                style: TextStyle(
-                  fontSize: 40,
-                  fontFamily: 'Montserrat',
-                ),
+              child: Stack(
+                alignment: AlignmentDirectional.center,
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/jpbp.png'),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+                  Text(
+                    "JUSTINIAN'S PLAGUE",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 40,
+                      fontFamily: 'Montserrat',
+                    ),
+                  ),
+                ],
               ),
               color: Colors.lightGreen[300],
               textColor: Colors.white,
@@ -64,12 +90,25 @@ class Pastpandemic extends StatelessWidget {
           Expanded(
             flex: 1,
             child: RaisedButton(
-              child: Text(
-                'SWINE FLU',
-                style: TextStyle(
-                  fontSize: 40,
-                  fontFamily: 'Montserrat',
-                ),
+              child: Stack(
+                alignment: AlignmentDirectional.center,
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/sfbp.png'),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+                  Text(
+                    "SWINE FLU",
+                    style: TextStyle(
+                      fontSize: 40,
+                      fontFamily: 'Montserrat',
+                    ),
+                  ),
+                ],
               ),
               color: Colors.pink[300],
               textColor: Colors.white,
@@ -86,12 +125,26 @@ class Pastpandemic extends StatelessWidget {
           Expanded(
             flex:1,
             child: RaisedButton(
-              child: Text(
-                'SPANISH FLU',
-                style: TextStyle(
-                  fontSize: 40,
-                  fontFamily: 'Montserrat',
-                ),
+              child: Stack(
+                alignment: AlignmentDirectional.center,
+                children: [
+                  Container(
+                    decoration: BoxDecoration(
+                      image: DecorationImage(
+                        image: AssetImage('assets/images/spbp.png'),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+                  Text(
+                    "SPANISH FLU",
+                    textAlign: TextAlign.center,
+                    style: TextStyle(
+                      fontSize: 40,
+                      fontFamily: 'Montserrat',
+                    ),
+                  ),
+                ],
               ),
               color: Colors.amber[300],
               textColor: Colors.white,
