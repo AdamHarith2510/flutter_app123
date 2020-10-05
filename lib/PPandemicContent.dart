@@ -602,7 +602,7 @@ class Swineflu extends StatelessWidget {
                   ),
                   Text(
                     'Swine flu, also known as the H1N1 virus, is a relatively new strain of an influenza virus that causes symptoms '
-                        'similar to the regular flu. It originated in pigs but is spread primarily from person to person.',
+                        'similar to the regular flu. It originated in pigs but is spread primarily from person to person.\n',
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
