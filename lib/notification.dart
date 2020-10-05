@@ -54,6 +54,8 @@ class _BodyLayoutState extends State<BodyLayout> {
               Text('Notify about new red zone areas'),
               FlutterSwitch(
                 value: status1,
+                width: 55,
+                height: 30,
                 onToggle: (val) {
                   setState(() {
                     status1 = val;
@@ -84,6 +86,8 @@ class _BodyLayoutState extends State<BodyLayout> {
               Text('Notify about new daily cases',),
               FlutterSwitch(
                 value: status2,
+                width: 55,
+                height: 30,
                 onToggle: (val) {
                   setState(() {
                     status2 = val;
@@ -114,6 +118,8 @@ class _BodyLayoutState extends State<BodyLayout> {
               Text('Notify about new daily recovered',),
               FlutterSwitch(
                 value: status3,
+                width: 55,
+                height: 30,
                 onToggle: (val) {
                   setState(() {
                     status3 = val;
@@ -144,6 +150,8 @@ class _BodyLayoutState extends State<BodyLayout> {
               Text('Remind to wear a mask ',),
               FlutterSwitch(
                 value: status4,
+                width: 55,
+                height: 30,
                 onToggle: (val) {
                   setState(() {
                     status4 = val;
@@ -174,6 +182,8 @@ class _BodyLayoutState extends State<BodyLayout> {
               Text('Remind to wash my hand',),
               FlutterSwitch(
                 value: status5,
+                width: 55,
+                height: 30,
                 onToggle: (val) {
                   setState(() {
                     status5 = val;
@@ -204,6 +214,8 @@ class _BodyLayoutState extends State<BodyLayout> {
               Text('Remind to drink water',),
               FlutterSwitch(
                 value: status6,
+                width: 55,
+                height: 30,
                 onToggle: (val) {
                   setState(() {
                     status6 = val;
