@@ -90,7 +90,7 @@ class Settings extends StatelessWidget {
                       Navigator.of(context).push(MaterialPageRoute(
                           builder: (BuildContext context) => MyWebView(
                             title: "Quizizz",
-                            selectedUrl: "https://quizizz.com/join?gc=03177776",
+                            selectedUrl: "https://quizizz.com/join/quiz/5f6ebaa19988bb001bd8402f/start?studentShare=true",
                           )));
                     },
                     child: Column(
