@@ -45,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       bottomNavigationBar: BottomNavigationBar(
         type: BottomNavigationBarType.fixed, // This is all you need!
-        backgroundColor: Colors.blue,
+        backgroundColor: Colors.indigoAccent,
         items: <BottomNavigationBarItem>[
           BottomNavigationBarItem(
             icon: Icon(Icons.trending_up),

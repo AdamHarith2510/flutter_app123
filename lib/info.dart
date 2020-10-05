@@ -12,6 +12,7 @@ class Info extends StatelessWidget {
         appBar: AppBar(
           title: Text('Info'),
           centerTitle: true,
+          backgroundColor: Colors.indigoAccent,
         ),
       body: Container(
         constraints: BoxConstraints.expand(),

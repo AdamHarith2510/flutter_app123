@@ -61,7 +61,7 @@ class _HomeState extends State<Home> {
               decoration: BoxDecoration(
                 border: Border.all(
                   width: 10,
-                  color: Colors.blue[900],
+                  color: Colors.indigo[600],
                 ),
                 borderRadius: BorderRadius.circular(20.0),
                 image: DecorationImage(
