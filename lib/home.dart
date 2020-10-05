@@ -352,20 +352,7 @@ class _HomeState extends State<Home> {
                             margin: EdgeInsets.symmetric(horizontal: 8.0),
                             child: Column(
                               children: [
-                                FittedBox(
-                                  child: Text(
-                                    'New Recovered',
-                                    style: TextStyle(
-                                      fontFamily: 'Montserrat',
-                                    ),
-                                  ),
-                                ),
-                                Text(
-                                  data1[index]['New Recovered'],
-                                  style: TextStyle(
-                                    fontFamily: 'Montserrat',
-                                  ),
-                                ),
+
                                 FittedBox(
                                   child: Text(
                                     'Total Recovered',

@@ -7,6 +7,7 @@ class noti extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Info'),
+        backgroundColor: Colors.redAccent,
         centerTitle: true,
       ),
       body: BodyLayout(),
