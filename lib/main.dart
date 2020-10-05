@@ -79,7 +79,7 @@ class _MyHomePageState extends State<MyHomePage> {
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.notifications),
         splashColor: Colors.purple,
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.redAccent,
         onPressed: () {
           Navigator.push(
               context,

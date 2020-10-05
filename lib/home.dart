@@ -75,7 +75,7 @@ class _HomeState extends State<Home> {
                 itemCount: data2 == null ? 0 : data2.length,
                 itemBuilder: (BuildContext context, int index2) {
                   return new Container(
-                    padding: EdgeInsets.all(15.0),
+                    padding: EdgeInsets.all(10.0),
                     child: Column(
                       children: [
                         Container(
@@ -84,14 +84,14 @@ class _HomeState extends State<Home> {
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontWeight: FontWeight.bold,
-                              fontSize: 21.0,
+                              fontSize: 22.0,
                             ),
                           ),
                         ),
                         Container(
                           margin: EdgeInsets.fromLTRB(10.0, 25.0, 10.0, 10.0),
                           child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             children: [
                               Column(
                                 children: [
@@ -100,7 +100,7 @@ class _HomeState extends State<Home> {
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 14.0,
+                                      fontSize: 12.0,
                                     ),
                                   ),
                                   Text(
@@ -108,7 +108,7 @@ class _HomeState extends State<Home> {
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 16.0,
+                                      fontSize: 14.0,
                                     ),
                                   ),
                                 ],
@@ -120,7 +120,7 @@ class _HomeState extends State<Home> {
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 14.0,
+                                      fontSize: 12.0,
                                     ),
                                   ),
                                   Text(
@@ -128,7 +128,7 @@ class _HomeState extends State<Home> {
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 16.0,
+                                      fontSize: 14.0,
                                     ),
                                   ),
                                 ],
@@ -140,7 +140,7 @@ class _HomeState extends State<Home> {
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 14.0,
+                                      fontSize: 12.0,
                                     ),
                                   ),
                                   Text(
@@ -148,7 +148,7 @@ class _HomeState extends State<Home> {
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 16.0,
+                                      fontSize: 14.0,
                                     ),
                                   ),
                                 ],
@@ -157,9 +157,9 @@ class _HomeState extends State<Home> {
                           ),
                         ),
                         Container(
-                          padding: EdgeInsets.all(10.0),
+                          padding: EdgeInsets.all(3.0),
                           child: Row(
-                            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                            mainAxisAlignment: MainAxisAlignment.spaceBetween,
                             crossAxisAlignment: CrossAxisAlignment.end,
                             children: [
                               Column(
@@ -169,7 +169,7 @@ class _HomeState extends State<Home> {
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 14.0,
+                                      fontSize: 12.0,
                                     ),
                                   ),
                                   Text(
@@ -177,7 +177,7 @@ class _HomeState extends State<Home> {
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 16.0,
+                                      fontSize: 14.0,
                                     ),
                                   ),
                                 ],
@@ -189,7 +189,7 @@ class _HomeState extends State<Home> {
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 14.0,
+                                      fontSize: 12.0,
                                     ),
                                   ),
                                   Text(
@@ -197,7 +197,7 @@ class _HomeState extends State<Home> {
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 16.0,
+                                      fontSize: 14.0,
                                     ),
                                   ),
                                 ],
@@ -209,7 +209,7 @@ class _HomeState extends State<Home> {
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 14.0,
+                                      fontSize: 12.0,
                                     ),
                                   ),
                                   Text(
@@ -217,7 +217,7 @@ class _HomeState extends State<Home> {
                                     style: TextStyle(
                                       fontFamily: 'Montserrat',
                                       fontWeight: FontWeight.bold,
-                                      fontSize: 16.0,
+                                      fontSize: 14.0,
                                     ),
                                   ),
                                 ],
@@ -261,7 +261,7 @@ class _HomeState extends State<Home> {
                               style: TextStyle(
                                 fontFamily: 'Montserrat',
                                 fontWeight: FontWeight.bold,
-                                fontSize: 13.0,
+                                fontSize: 12.0,
                               ),
                             ),
                           ),
