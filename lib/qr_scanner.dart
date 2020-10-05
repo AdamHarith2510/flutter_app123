@@ -33,7 +33,7 @@ class _QRScan extends State<QRScan> {
               key: qrKey,
               onQRViewCreated: _onQRViewCreated,
               overlay: QrScannerOverlayShape(
-                borderColor: Colors.red,
+                borderColor: Colors.blueAccent,
                 borderRadius: 10,
                 borderLength: 30,
                 borderWidth: 10,
@@ -56,7 +56,10 @@ class _QRScan extends State<QRScan> {
                       Container(
                         margin: EdgeInsets.all(8),
                         child: RaisedButton(
+                          color: Colors.indigoAccent,
+                          splashColor: Colors.redAccent,
                           onPressed: () {
+
                             if (controller != null) {
                               controller.toggleFlash();
                               if (_isFlashOn(flashState)) {
@@ -71,12 +74,14 @@ class _QRScan extends State<QRScan> {
                             }
                           },
                           child:
-                          Text(flashState, style: TextStyle(fontSize: 20)),
+                          Text(flashState, style: TextStyle(fontSize: 20, color: Colors.white)),
                         ),
                       ),
                       Container(
                         margin: EdgeInsets.all(8),
                         child: RaisedButton(
+                          color: Colors.indigoAccent,
+                          splashColor: Colors.redAccent,
                           onPressed: () {
                             if (controller != null) {
                               controller.flipCamera();
@@ -92,7 +97,7 @@ class _QRScan extends State<QRScan> {
                             }
                           },
                           child:
-                          Text(cameraState, style: TextStyle(fontSize: 20)),
+                          Text(cameraState, style: TextStyle(fontSize: 20, color: Colors.white)),
                         ),
                       )
                     ],
