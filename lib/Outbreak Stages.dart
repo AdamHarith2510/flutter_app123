@@ -159,7 +159,7 @@ class Pandemic extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/pastpandemic.jpg'),
@@ -173,7 +173,7 @@ class Pandemic extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -216,7 +216,7 @@ class Epidemic extends StatelessWidget {
                       blurRadius: 7,
                     )
                   ],
-                  color: Colors.amber,
+                  color: Colors.amber[500],
                   borderRadius: BorderRadius.all(Radius.circular(20.0))
               ),
               padding: EdgeInsets.all(15.0),
@@ -234,7 +234,7 @@ class Epidemic extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/epidemic.jpg'),
@@ -250,7 +250,7 @@ class Epidemic extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -308,7 +308,7 @@ class Endemic extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/endemic.jpg'),
@@ -321,7 +321,8 @@ class Endemic extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.
+                      black,
                     ),
                   ),
                 ],

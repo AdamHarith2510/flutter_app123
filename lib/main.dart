@@ -13,6 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Bottom Navigation Bar',
+      debugShowCheckedModeBanner: false,
       home: MyHomePage(),
     );
   }
@@ -77,6 +78,8 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         child: Icon(Icons.notifications),
+        splashColor: Colors.purple,
+        backgroundColor: Colors.red,
         onPressed: () {
           Navigator.push(
               context,

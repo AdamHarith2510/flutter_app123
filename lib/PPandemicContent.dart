@@ -34,7 +34,7 @@ class Blackdeath extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -48,7 +48,7 @@ class Blackdeath extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Black1.jpg'),
@@ -77,7 +77,7 @@ class Blackdeath extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -89,7 +89,7 @@ class Blackdeath extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Black2.jpg'),
@@ -118,7 +118,7 @@ class Blackdeath extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -128,7 +128,7 @@ class Blackdeath extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -156,7 +156,7 @@ class Blackdeath extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -165,7 +165,7 @@ class Blackdeath extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Black3.png'),
@@ -177,7 +177,7 @@ class Blackdeath extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -205,7 +205,7 @@ class Blackdeath extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -217,7 +217,7 @@ class Blackdeath extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Black4.jpg'),
@@ -246,7 +246,7 @@ class Blackdeath extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -255,7 +255,7 @@ class Blackdeath extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Black5.jpg'),
@@ -266,7 +266,7 @@ class Blackdeath extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -323,7 +323,7 @@ class Justinian extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -332,7 +332,7 @@ class Justinian extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Justinian1.jpg'),
@@ -342,7 +342,7 @@ class Justinian extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -370,7 +370,7 @@ class Justinian extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -381,7 +381,7 @@ class Justinian extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/EmperorJustinian.jpg'),
@@ -391,7 +391,7 @@ class Justinian extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -403,7 +403,7 @@ class Justinian extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -431,7 +431,7 @@ class Justinian extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -442,7 +442,7 @@ class Justinian extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Justinian2.jpg'),
@@ -453,7 +453,7 @@ class Justinian extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -481,7 +481,7 @@ class Justinian extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -491,7 +491,7 @@ class Justinian extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Justinian3.jpg'),
@@ -502,7 +502,7 @@ class Justinian extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -530,7 +530,7 @@ class Justinian extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -541,7 +541,7 @@ class Justinian extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Justinian4.jpg'),
@@ -551,7 +551,7 @@ class Justinian extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -597,7 +597,7 @@ class Swineflu extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -606,7 +606,7 @@ class Swineflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Swine.jpg'),
@@ -616,7 +616,7 @@ class Swineflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -627,7 +627,7 @@ class Swineflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Swine1.png'),
@@ -638,7 +638,7 @@ class Swineflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -647,7 +647,7 @@ class Swineflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -675,7 +675,7 @@ class Swineflu extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -686,7 +686,7 @@ class Swineflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Swine2.jpg'),
@@ -697,7 +697,7 @@ class Swineflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -725,7 +725,7 @@ class Swineflu extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -734,7 +734,7 @@ class Swineflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Swine3.jpg'),
@@ -745,7 +745,7 @@ class Swineflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -773,7 +773,7 @@ class Swineflu extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -782,7 +782,7 @@ class Swineflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Swine4.png'),
@@ -811,7 +811,7 @@ class Swineflu extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -821,7 +821,7 @@ class Swineflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Swine5.jpg'),
@@ -833,7 +833,7 @@ class Swineflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -842,7 +842,7 @@ class Swineflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -888,7 +888,7 @@ class Spanishflu extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -897,7 +897,7 @@ class Spanishflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Spanish1.jpg'),
@@ -909,7 +909,7 @@ class Spanishflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -937,7 +937,7 @@ class Spanishflu extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -947,7 +947,7 @@ class Spanishflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Spanish2.jpg'),
@@ -958,7 +958,7 @@ class Spanishflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -996,7 +996,7 @@ class Spanishflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Spanish3.jpg'),
@@ -1007,7 +1007,7 @@ class Spanishflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -1035,7 +1035,7 @@ class Spanishflu extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -1048,7 +1048,7 @@ class Spanishflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],
@@ -1076,7 +1076,7 @@ class Spanishflu extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -1087,7 +1087,7 @@ class Spanishflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -1096,7 +1096,7 @@ class Spanishflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -1106,7 +1106,7 @@ class Spanishflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Spanish4.jpg'),
@@ -1135,7 +1135,7 @@ class Spanishflu extends StatelessWidget {
                       fontFamily: 'Montserrat',
                       fontSize: 17,
                       fontWeight: FontWeight.bold,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -1143,7 +1143,7 @@ class Spanishflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -1153,7 +1153,7 @@ class Spanishflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Image.asset('assets/images/Spanish5.jpg'),
@@ -1164,7 +1164,7 @@ class Spanishflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                   Text(
@@ -1174,7 +1174,7 @@ class Spanishflu extends StatelessWidget {
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       fontSize: 17,
-                      color: Colors.white,
+                      color: Colors.black,
                     ),
                   ),
                 ],

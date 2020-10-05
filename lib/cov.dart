@@ -57,7 +57,7 @@ class COV extends StatelessWidget {
                                 style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontStyle: FontStyle.italic,
-                                  color: Colors.white,
+                                  color: Colors.black,
                                   fontSize: 23.0
                                 ),
                             ),
@@ -94,7 +94,7 @@ class COV extends StatelessWidget {
                               style: TextStyle(
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
-                                color: Colors.white,
+                                color: Colors.black,
                                 fontSize: 23.0
                               ),
                             ),
@@ -132,7 +132,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -168,7 +168,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -201,7 +201,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -262,7 +262,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -297,7 +297,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -333,7 +333,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -370,7 +370,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -405,7 +405,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -441,7 +441,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -472,7 +472,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -509,7 +509,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -546,7 +546,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -584,7 +584,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -621,7 +621,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -654,7 +654,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -688,7 +688,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 
@@ -723,7 +723,7 @@ class COV extends StatelessWidget {
                                 fontWeight: FontWeight.bold,
                                 fontStyle: FontStyle.italic,
                                 fontSize: 23.0,
-                                color: Colors.white,
+                                color: Colors.black,
                               ),
                             ),
 

@@ -259,7 +259,7 @@ class FaceMasks extends StatelessWidget {
                     ),
                   ),
                   Text(
-                    '\nSewn face mask',
+                    '\nSewn face mask\n',
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       color: Colors.white,
@@ -267,7 +267,7 @@ class FaceMasks extends StatelessWidget {
                   ),
                   Image.asset('assets/images/SM.jpg'),
                   Text(
-                    '\n\nNon-sewn face mask',
+                    '\n\nNon-sewn face mask\n',
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       color: Colors.white,
@@ -343,7 +343,7 @@ class HandSanitisers extends StatelessWidget {
                   Text(
                     '\n- Contains ethyl alcohol or isopropyl alcohol'
                         '\n- More than 75% of the sanitiser is alcohol'
-                        '\n- It helps to demolishe the cells by spreading throughout the cell membrane'
+                        '\n- It helps to demolished the cells by spreading throughout the cell membrane'
                         '\n- Microbes will not become resistant to it after prolonged usage'
                         '\n- Highly recommended by the scientific community due to high effectiveness and ease of use.\n',
                     style: TextStyle(
@@ -389,7 +389,7 @@ class HandSanitisers extends StatelessWidget {
                   Text(
                     '- Hefty alcohol content makes them toxic if ingested'
                         '\n- Using alcohol-based hand sanitizers frequently can result in dry, chapped, and cracking skin'
-                        '\n- Vapurs of alcohol-based hand sanitizer presents a fire hazard ',
+                        '\n- Vapours of alcohol-based hand sanitizer presents a fire hazard ',
                     style: TextStyle(
                       fontFamily: 'Montserrat',
                       color: Colors.white,

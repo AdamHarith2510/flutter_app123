@@ -47,10 +47,10 @@ class _BodyLayoutState extends State<BodyLayout> {
           padding: EdgeInsets.all(15.0),
           margin: EdgeInsets.symmetric(vertical: 8.0, horizontal: 8.0),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Icon(Icons.notification_important),
-              Text('Notify me about new red zone areas'),
+              Icon(Icons.location_on),
+              Text('Notify about new red zone areas'),
               FlutterSwitch(
                 value: status1,
                 onToggle: (val) {
@@ -77,10 +77,10 @@ class _BodyLayoutState extends State<BodyLayout> {
           padding: EdgeInsets.all(15.0),
           margin: EdgeInsets.symmetric(vertical: 8.0, horizontal: 8.0),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Icon(Icons.directions_boat,),
-              Text('Notify me about new daily cases',),
+              Icon(Icons.notifications_active,),
+              Text('Notify about new daily cases',),
               FlutterSwitch(
                 value: status2,
                 onToggle: (val) {
@@ -107,10 +107,10 @@ class _BodyLayoutState extends State<BodyLayout> {
           padding: EdgeInsets.all(15.0),
           margin: EdgeInsets.symmetric(vertical: 8.0, horizontal: 8.0),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Icon(Icons.directions_bus,),
-              Text('Notify me about new daily recovered',),
+              Icon(Icons.notification_important,),
+              Text('Notify about new daily recovered',),
               FlutterSwitch(
                 value: status3,
                 onToggle: (val) {
@@ -137,10 +137,10 @@ class _BodyLayoutState extends State<BodyLayout> {
           padding: EdgeInsets.all(15.0),
           margin: EdgeInsets.symmetric(vertical: 8.0, horizontal: 8.0),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Icon(Icons.face,),
-              Text('Remind me to wear a mask ',),
+              Text('Remind to wear a mask ',),
               FlutterSwitch(
                 value: status4,
                 onToggle: (val) {
@@ -167,10 +167,10 @@ class _BodyLayoutState extends State<BodyLayout> {
           padding: EdgeInsets.all(15.0),
           margin: EdgeInsets.symmetric(vertical: 8.0, horizontal: 8.0),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Icon(Icons.fingerprint,),
-              Text('Remind me to wash my hand',),
+              Text('Remind to wash my hand',),
               FlutterSwitch(
                 value: status5,
                 onToggle: (val) {
@@ -197,10 +197,10 @@ class _BodyLayoutState extends State<BodyLayout> {
           padding: EdgeInsets.all(15.0),
           margin: EdgeInsets.symmetric(vertical: 8.0, horizontal: 8.0),
           child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               Icon(Icons.bubble_chart,),
-              Text('Remind me to drink water',),
+              Text('Remind to drink water',),
               FlutterSwitch(
                 value: status6,
                 onToggle: (val) {
