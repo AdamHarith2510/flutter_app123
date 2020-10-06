@@ -8,11 +8,13 @@ class PPE extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Personal Protective Equipment'),
+        backgroundColor: Colors.lightBlue,
       ),
       body: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           RaisedButton(
+            splashColor: Colors.pinkAccent,
             onPressed: () {
               Navigator.push(
                           context,
@@ -33,6 +35,7 @@ class PPE extends StatelessWidget {
             ),
           ),
           RaisedButton(
+              splashColor: Colors.pinkAccent,
               onPressed: () {
                 Navigator.push(
                           context,
@@ -53,6 +56,7 @@ class PPE extends StatelessWidget {
               )
           ),
           RaisedButton(
+            splashColor: Colors.pinkAccent,
             onPressed: () {
               Navigator.push(
                           context,

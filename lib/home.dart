@@ -16,10 +16,10 @@ class _HomeState extends State<Home> {
 
   Future<String> getData1() async {
     http.Response response = await http.get(
-      Uri.encodeFull('https://sheet.best/api/sheets/3e58c7e2-fdeb-4395-b122-0cbbf544d081'),
-      headers: {
-        'Accept': 'application/json'
-      }
+        Uri.encodeFull('https://sheet.best/api/sheets/3e58c7e2-fdeb-4395-b122-0cbbf544d081'),
+        headers: {
+          'Accept': 'application/json'
+        }
     );
     this.setState(() {
       data1 = jsonDecode(response.body);
@@ -80,7 +80,7 @@ class _HomeState extends State<Home> {
                       children: [
                         Container(
                           child: Text(
-                            'Malaysia Covid-19 Cases',
+                            "Malaysia's Covid-19 Cases",
                             style: TextStyle(
                               fontFamily: 'Montserrat',
                               fontWeight: FontWeight.bold,

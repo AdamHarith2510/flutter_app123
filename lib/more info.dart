@@ -42,15 +42,15 @@ class _MoreInfoState extends State<MoreInfo> {
 
     return Scaffold(
         appBar: AppBar(
-          title: Text(
-              'More Info',
-          ),
+          title: Text('More Info',),
+          backgroundColor: Colors.lightBlue,
         ),
         body: Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
               children: <Widget>[
                 RaisedButton(
+                  splashColor: Colors.indigoAccent,
                   onPressed: () => setState(() {
                     _launched = _launchInBrowser(kkmLaunch);
                   }),
@@ -70,6 +70,7 @@ class _MoreInfoState extends State<MoreInfo> {
                 ),
 
                 RaisedButton(
+                  splashColor: Colors.indigoAccent,
                   onPressed: () => setState(() {
                     _launched = _launchInBrowser(c19mLaunch);
                   }),
@@ -89,6 +90,7 @@ class _MoreInfoState extends State<MoreInfo> {
                 ),
 
                 RaisedButton(
+                  splashColor: Colors.indigoAccent,
                   onPressed: () => setState(() {
                     _launched = _launchInBrowser(whoLaunch);
                   }),
@@ -108,6 +110,7 @@ class _MoreInfoState extends State<MoreInfo> {
                 ),
 
                 RaisedButton(
+                  splashColor: Colors.indigoAccent,
                   onPressed: () =>
                       setState(() {
                         _launched = _launchInBrowser(cdcLaunch);
@@ -129,6 +132,7 @@ class _MoreInfoState extends State<MoreInfo> {
                 ),
 
                 RaisedButton(
+                  splashColor: Colors.indigoAccent,
                   onPressed: () => setState(() {
                     _launched = _launchInBrowser(ctLaunch);
                   }),

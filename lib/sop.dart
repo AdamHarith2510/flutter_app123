@@ -6,6 +6,7 @@ class SOP extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Standard Operating Procedure'),
+        backgroundColor: Colors.lightBlue,
       ),
       body: SingleChildScrollView(
         child: Container(

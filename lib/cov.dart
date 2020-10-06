@@ -6,6 +6,7 @@ class COV extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('Covid-19 (Facts 101)'),
+        backgroundColor: Colors.lightBlue,
       ),
       body: Container(
         constraints: BoxConstraints.expand(),
@@ -246,7 +247,7 @@ class COV extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(20.0)),
-                          color: Colors.grey[400],
+                          color: Colors.white24,
                         ),
                         padding: EdgeInsets.all(15.0),
                         margin: EdgeInsets.all(15.0),
@@ -282,7 +283,7 @@ class COV extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(20.0)),
-                          color: Colors.grey[400],
+                          color: Colors.white24,
                         ),
                         padding: EdgeInsets.all(15.0),
                         margin: EdgeInsets.all(15.0),
@@ -318,7 +319,7 @@ class COV extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(20.0)),
-                          color: Colors.grey[400],
+                          color: Colors.white24,
                         ),
                         padding: EdgeInsets.all(15.0),
                         margin: EdgeInsets.all(15.0),
@@ -354,7 +355,7 @@ class COV extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(20.0)),
-                          color: Colors.grey[400],
+                          color: Colors.white24,
                         ),
                         padding: EdgeInsets.all(15.0),
                         margin: EdgeInsets.all(15.0),
@@ -390,7 +391,7 @@ class COV extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(20.0)),
-                          color: Colors.grey[400],
+                          color: Colors.white24,
                         ),
                         padding: EdgeInsets.all(15.0),
                         margin: EdgeInsets.all(15.0),
@@ -426,7 +427,7 @@ class COV extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                          color: Colors.grey[400],
+                          color: Colors.white24,
                         ),
                         padding: EdgeInsets.all(15.0),
                         margin: EdgeInsets.all(15.0),
@@ -457,7 +458,7 @@ class COV extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(20.0)),
-                          color: Colors.grey[400],
+                          color: Colors.white24,
                         ),
                         padding: EdgeInsets.all(15.0),
                         margin: EdgeInsets.all(15.0),
@@ -493,7 +494,7 @@ class COV extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(20.0)),
-                          color: Colors.grey[400],
+                          color: Colors.white24,
                         ),
                         padding: EdgeInsets.all(15.0),
                         margin: EdgeInsets.all(15.0),
@@ -530,7 +531,7 @@ class COV extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(20.0)),
-                          color: Colors.grey[400],
+                          color: Colors.white24,
                         ),
                         padding: EdgeInsets.all(15.0),
                         margin: EdgeInsets.all(15.0),
@@ -567,7 +568,7 @@ class COV extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(20.0)),
-                          color: Colors.grey[400],
+                          color: Colors.white24,
                         ),
                         padding: EdgeInsets.all(15.0),
                         margin: EdgeInsets.all(15.0),
@@ -606,7 +607,7 @@ class COV extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(10.0)),
-                          color: Colors.grey[400],
+                          color: Colors.white24,
                         ),
                         padding: EdgeInsets.all(15.0),
                         margin: EdgeInsets.all(15.0),
@@ -638,7 +639,7 @@ class COV extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(20.0)),
-                          color: Colors.grey[400],
+                          color: Colors.white24,
                         ),
                         padding: EdgeInsets.all(15.0),
                         margin: EdgeInsets.all(15.0),
@@ -673,7 +674,7 @@ class COV extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(20.0)),
-                          color: Colors.grey[400],
+                          color: Colors.white24,
                         ),
                         padding: EdgeInsets.all(15.0),
                         margin: EdgeInsets.all(15.0),
@@ -708,7 +709,7 @@ class COV extends StatelessWidget {
                       Container(
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(20.0)),
-                          color: Colors.grey[400],
+                          color: Colors.white24,
                         ),
                         padding: EdgeInsets.all(15.0),
                         margin: EdgeInsets.all(15.0),
